@@ -1,14 +1,14 @@
 package com.example.joseph.appinforeaderfragment.activity;
 
+import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.joseph.appinforeaderfragment.R;
 
-public class FragmentListItemActivity extends AppCompatActivity {
+public class FragmentListItemActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

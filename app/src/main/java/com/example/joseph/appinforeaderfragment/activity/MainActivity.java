@@ -1,18 +1,18 @@
 package com.example.joseph.appinforeaderfragment.activity;
 
+import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.joseph.appinforeaderfragment.fragment.FragmentListItem;
-import com.example.joseph.appinforeaderfragment.fragment.MainActivityFragment;
 import com.example.joseph.appinforeaderfragment.R;
 import com.example.joseph.appinforeaderfragment.data.AppInfo;
+import com.example.joseph.appinforeaderfragment.fragment.FragmentListItem;
+import com.example.joseph.appinforeaderfragment.fragment.MainActivityFragment;
 
-public class MainActivity extends AppCompatActivity implements MainActivityFragment.OnMainActivityFragmentClickListener {
+public class MainActivity extends Activity implements MainActivityFragment.OnMainActivityFragmentClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
